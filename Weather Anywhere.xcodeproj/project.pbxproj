@@ -12,6 +12,8 @@
 		58DF61F22212C6D1004A6C2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DF61F02212C6D1004A6C2F /* Main.storyboard */; };
 		58DF61F42212C6D2004A6C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DF61F32212C6D2004A6C2F /* Assets.xcassets */; };
 		58DF61F72212C6D2004A6C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DF61F52212C6D2004A6C2F /* LaunchScreen.storyboard */; };
+		58DF61FF2212C931004A6C2F /* WAWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DF61FE2212C931004A6C2F /* WAWeather.swift */; };
+		58DF62012212CCA8004A6C2F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DF62002212CCA8004A6C2F /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		58DF61F32212C6D2004A6C2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58DF61F62212C6D2004A6C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58DF61F82212C6D2004A6C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58DF61FE2212C931004A6C2F /* WAWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAWeather.swift; sourceTree = "<group>"; };
+		58DF62002212CCA8004A6C2F /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				58DF61EC2212C6D1004A6C2F /* AppDelegate.swift */,
 				58DF61EE2212C6D1004A6C2F /* ViewController.swift */,
 				58DF61F02212C6D1004A6C2F /* Main.storyboard */,
+				58DF62002212CCA8004A6C2F /* SwiftyJSON.swift */,
+				58DF61FE2212C931004A6C2F /* WAWeather.swift */,
 				58DF61F32212C6D2004A6C2F /* Assets.xcassets */,
 				58DF61F52212C6D2004A6C2F /* LaunchScreen.storyboard */,
 				58DF61F82212C6D2004A6C2F /* Info.plist */,
@@ -137,6 +143,8 @@
 			files = (
 				58DF61EF2212C6D1004A6C2F /* ViewController.swift in Sources */,
 				58DF61ED2212C6D1004A6C2F /* AppDelegate.swift in Sources */,
+				58DF61FF2212C931004A6C2F /* WAWeather.swift in Sources */,
+				58DF62012212CCA8004A6C2F /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
